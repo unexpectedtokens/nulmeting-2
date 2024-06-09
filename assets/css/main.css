@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  @apply text-blue-600;
+}
+
+button {
+  @apply bg-blue-600 text-white p-2 rounded;
+}
+
+h1 {
+  @apply text-3xl;
+}
+
+input {
+  @apply border border-gray-400 rounded p-2 mb-5;
+}
